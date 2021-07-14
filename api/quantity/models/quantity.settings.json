@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quantities",
+  "info": {
+    "name": "quantity",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stock": {
+      "via": "quantities",
+      "model": "stock"
+    },
+    "quantity": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
