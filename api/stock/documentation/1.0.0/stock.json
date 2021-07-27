@@ -571,11 +571,11 @@
                 "id": {
                   "type": "string"
                 },
-                "stock": {
-                  "type": "string"
-                },
                 "quantity": {
                   "type": "integer"
+                },
+                "stock": {
+                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"

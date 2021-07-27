@@ -522,6 +522,10 @@
           "id": {
             "type": "string"
           },
+          "quantity": {
+            "type": "integer",
+            "default": 0
+          },
           "stock": {
             "required": [
               "id",
@@ -553,21 +557,17 @@
                 "type": "string"
               }
             }
-          },
-          "quantity": {
-            "type": "integer",
-            "default": 0
           }
         }
       },
       "NewQuantity": {
         "properties": {
-          "stock": {
-            "type": "string"
-          },
           "quantity": {
             "type": "integer",
             "default": 0
+          },
+          "stock": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

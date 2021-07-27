@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "stock": {
-      "via": "quantities",
-      "model": "stock"
-    },
     "quantity": {
       "type": "integer",
       "default": 0
+    },
+    "stock": {
+      "model": "stock",
+      "via": "quantities"
     }
   }
 }
